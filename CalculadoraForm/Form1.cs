@@ -49,7 +49,7 @@ namespace CalculadoraForm
                 Button botaoclicado = (Button)sender;
 
                 // adicionar  o text do botão clicado no text box
-                txbtela.Text = botaoclicado.Text;
+                txbtela.Text += botaoclicado.Text;
 
                 // mudar operadorClicado para true:
                 operadorClicado=true;
