@@ -214,6 +214,7 @@
             this.btnmais.TabIndex = 11;
             this.btnmais.Text = "+";
             this.btnmais.UseVisualStyleBackColor = true;
+            this.btnmais.Click += new System.EventHandler(this.operadorClick);
             // 
             // btnmenos
             // 
@@ -227,6 +228,7 @@
             this.btnmenos.TabIndex = 12;
             this.btnmenos.Text = "-";
             this.btnmenos.UseVisualStyleBackColor = true;
+            this.btnmenos.Click += new System.EventHandler(this.operadorClick);
             // 
             // btnmultiplicar
             // 
@@ -240,6 +242,7 @@
             this.btnmultiplicar.TabIndex = 13;
             this.btnmultiplicar.Text = "*";
             this.btnmultiplicar.UseVisualStyleBackColor = true;
+            this.btnmultiplicar.Click += new System.EventHandler(this.operadorClick);
             // 
             // btndividir
             // 
@@ -249,10 +252,11 @@
             this.btndividir.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btndividir.Location = new System.Drawing.Point(336, 135);
             this.btndividir.Name = "btndividir";
-            this.btndividir.Size = new System.Drawing.Size(102, 60);
+            this.btndividir.Size = new System.Drawing.Size(102, 61);
             this.btndividir.TabIndex = 14;
             this.btndividir.Text = "/";
             this.btndividir.UseVisualStyleBackColor = true;
+            this.btndividir.Click += new System.EventHandler(this.operadorClick);
             // 
             // btnlimpar
             // 
